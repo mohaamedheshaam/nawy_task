@@ -1,0 +1,22 @@
+node_modules/
+dist/
+.env
+.DS_Store
+coverage
+test-dashboard.md
+
+# local env files
+.env
+
+*.zip
+
+# typescript
+*.tsbuildinfo
+
+#test
+/__test__
+/dist
+
+
+# Linter reports
+megalinter-reports

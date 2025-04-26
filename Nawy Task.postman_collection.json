@@ -1,0 +1,265 @@
+{
+	"info": {
+		"_postman_id": "400e298f-2e0d-41f1-ba6d-e6df56bf53b9",
+		"name": "Nawy Task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12009335",
+		"_collection_link": "https://dark-moon-812856.postman.co/workspace/My-Workspace~1943cccb-a8c8-4c4c-8333-6956866bcee1/collection/12009335-400e298f-2e0d-41f1-ba6d-e6df56bf53b9?action=share&source=collection_link&creator=12009335"
+	},
+	"item": [
+		{
+			"name": "Get Apartments",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/apartments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"apartments"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Apartments",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/apartments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"apartments"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "Get Apartment by Id",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/apartments/1c5d2c5c-f1ee-4b87-a0db-c5086bc06c4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"apartments",
+						"1c5d2c5c-f1ee-4b87-a0db-c5086bc06c4"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Apartment by Id",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/apartments/1c5d2c5c-f1ee-4b87-a0db-c5086bc06c4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"apartments",
+								"1c5d2c5c-f1ee-4b87-a0db-c5086bc06c4"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "Get Apartment by Id",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/apartments/1c5d2c5c-f1ee-4b87-a0db-c5086bc06c4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"apartments",
+								"1c5d2c5c-f1ee-4b87-a0db-c5086bc06c4"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "Get Apartment by Id",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/apartments/1c5d2c5c-f1ee-4b87-a0db-c5086bc06c4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"apartments",
+								"1c5d2c5c-f1ee-4b87-a0db-c5086bc06c4"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "Get Apartment by Id",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/apartments/1c5d2c5c-f1ee-4b87-a0db-c5086bc06c4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"apartments",
+								"1c5d2c5c-f1ee-4b87-a0db-c5086bc06c4"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "Get Apartment by Id",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/apartments/1c5d2c5c-f1ee-4b87-a0db-c5086bc06c4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"apartments",
+								"1c5d2c5c-f1ee-4b87-a0db-c5086bc06c4"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "Add Apartment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"title\": \"Classic Heliopolis Apartment\",\n        \"description\": \"Elegant apartment with high ceilings, near historic sites and modern amenities.\",\n        \"price\": 3000000,\n        \"location\": \"Heliopolis, Cairo\",\n        \"bedrooms\": 3,\n        \"bathrooms\": 2,\n        \"sqft\": 1800,\n        \"imageUrl\": \"/placeholder.svg?height=400&width=600\",\n        \"propertyType\": \"APARTMENT\",\n        \"createdAt\": \"2025-04-26T08:02:42.387Z\",\n        \"updatedAt\": \"2025-04-26T08:02:42.387Z\"\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/apartments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"apartments"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Add Apartment",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\n        \"title\": \"Classic Heliopolis Apartment\",\n        \"description\": \"Elegant apartment with high ceilings, near historic sites and modern amenities.\",\n        \"price\": 3000000,\n        \"location\": \"Heliopolis, Cairo\",\n        \"bedrooms\": 3,\n        \"bathrooms\": 2,\n        \"sqft\": 1800,\n        \"imageUrl\": \"/placeholder.svg?height=400&width=600\",\n        \"propertyType\": \"APARTMENT\",\n        \"createdAt\": \"2025-04-26T08:02:42.387Z\",\n        \"updatedAt\": \"2025-04-26T08:02:42.387Z\"\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/apartments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"apartments"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}
